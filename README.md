@@ -7,16 +7,6 @@
 - Agregar producto:   .../api/products?name=$name&description=$description&stock=$stock
 - Editar producto:    .../api/products/$id?name=$name&description=$description&stock=$stock
 - Eliminar producto:  .../api/products/delete/$id
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-
-Mostrar por ID:     .../api/products/$id
-Agregar producto:   .../api/products?name=$name&description=$description&stock=$stock
-Editar producto:    .../api/products/$id?name=$name&description=$description&stock=$stock
-Eliminar producto:  .../api/products/delete/$id
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
