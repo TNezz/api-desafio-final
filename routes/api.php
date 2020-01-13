@@ -17,6 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//Cada ruta de la Api Rest lista para ser llamada y ejecutar su respectiva función
 Route::get('products', 'ProductsController@getAll')->name('getAllProducts');
 Route::post('products', 'ProductsController@add')->name('addProducts');
 Route::get('products/{_id}', 'ProductsController@get')->name('getProducts');
